@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import StatCard from "@/components/molecules/StatCard";
 import WeatherCard from "@/components/molecules/WeatherCard";
 import FieldGrid from "@/components/organisms/FieldGrid";
@@ -10,6 +12,7 @@ import { tasksService } from "@/services/api/tasksService";
 import { weatherService } from "@/services/api/weatherService";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
   const [stats, setStats] = useState({
     totalFields: 0,
     activeFields: 0,
@@ -20,6 +23,10 @@ const Dashboard = () => {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [loading, setLoading] = useState(true);
 
+  const handleQuickAction = (actionType, route) => {
+    toast.info(`Navigating to ${actionType}...`);
+    navigate(route);
+  };
   useEffect(() => {
     const loadDashboardData = async () => {
       try {
@@ -120,19 +127,35 @@ const Dashboard = () => {
           <div className="bg-gradient-to-br from-surface to-white rounded-xl p-6 shadow-md">
             <h3 className="text-lg font-semibold text-gray-800 mb-4">Quick Actions</h3>
 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <Button variant="outline" className="h-20 flex-col">
+              <Button 
+                variant="outline" 
+                className="h-20 flex-col"
+                onClick={() => handleQuickAction("Add Field", "/fields")}
+              >
                 <ApperIcon name="Map" size={24} className="mb-2 text-primary" />
                 <span className="text-sm">Add Field</span>
               </Button>
-              <Button variant="outline" className="h-20 flex-col">
+              <Button 
+                variant="outline" 
+                className="h-20 flex-col"
+                onClick={() => handleQuickAction("New Task", "/tasks")}
+              >
                 <ApperIcon name="CheckSquare" size={24} className="mb-2 text-primary" />
                 <span className="text-sm">New Task</span>
               </Button>
-              <Button variant="outline" className="h-20 flex-col">
+              <Button 
+                variant="outline" 
+                className="h-20 flex-col"
+                onClick={() => handleQuickAction("Add Inventory", "/inventory")}
+              >
                 <ApperIcon name="Package" size={24} className="mb-2 text-primary" />
                 <span className="text-sm">Add Inventory</span>
               </Button>
-              <Button variant="outline" className="h-20 flex-col">
+              <Button 
+                variant="outline" 
+                className="h-20 flex-col"
+                onClick={() => handleQuickAction("Irrigation", "/irrigation")}
+              >
                 <ApperIcon name="Calendar" size={24} className="mb-2 text-primary" />
                 <span className="text-sm">Irrigation</span>
               </Button>
