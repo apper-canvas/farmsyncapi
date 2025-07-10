@@ -171,19 +171,41 @@ const IrrigationCalendar = () => {
   return (
     <div className="p-6 lg:p-8 max-w-7xl mx-auto">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
+<div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
         <div>
           <h1 className="text-3xl font-bold text-gray-800 mb-2">Irrigation Calendar</h1>
-          <p className="text-gray-600">Schedule and manage irrigation based on weather forecasts and soil conditions</p>
+          <p className="text-gray-600">
+            Schedule and manage irrigation based on weather forecasts and soil conditions
+            {!selectedDate && (
+              <span className="block text-sm text-primary font-medium mt-1">
+                → Select a date on the calendar to schedule irrigation
+              </span>
+            )}
+          </p>
         </div>
         <div className="flex space-x-3 mt-4 md:mt-0">
           <Button variant="outline" onClick={() => setCurrentDate(new Date())}>
             <ApperIcon name="Calendar" size={20} className="mr-2" />
             Today
           </Button>
-          <Button variant="primary" onClick={() => selectedDate && handleScheduleIrrigation()} disabled={!selectedDate}>
+          <Button 
+            variant="primary" 
+            onClick={handleScheduleIrrigation} 
+            disabled={!selectedDate}
+            className={cn(
+              "relative transition-all duration-200",
+              !selectedDate && "opacity-50 cursor-not-allowed",
+              selectedDate && "hover:shadow-lg hover:scale-105"
+            )}
+            title={!selectedDate ? "Select a date first" : "Schedule irrigation for selected date"}
+          >
             <ApperIcon name="Plus" size={20} className="mr-2" />
             Schedule Irrigation
+            {selectedDate && (
+              <span className="ml-2 text-xs bg-white/20 px-2 py-1 rounded">
+                {format(selectedDate, 'MMM d')}
+              </span>
+            )}
           </Button>
         </div>
       </div>
