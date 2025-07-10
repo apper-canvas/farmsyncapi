@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 1,
+    "name": "Corn Seed - Pioneer 1234",
+    "category": "seeds",
+    "quantity": 250,
+    "unit": "bags",
+    "reorderPoint": 50,
+    "lastRestocked": "2024-03-15"
+  },
+  {
+    "Id": 2,
+    "name": "Nitrogen Fertilizer",
+    "category": "fertilizers",
+    "quantity": 45,
+    "unit": "tons",
+    "reorderPoint": 10,
+    "lastRestocked": "2024-06-20"
+  },
+  {
+    "Id": 3,
+    "name": "Glyphosate Herbicide",
+    "category": "chemicals",
+    "quantity": 120,
+    "unit": "gallons",
+    "reorderPoint": 25,
+    "lastRestocked": "2024-05-10"
+  },
+  {
+    "Id": 4,
+    "name": "John Deere Tractor - Model 8R",
+    "category": "equipment",
+    "quantity": 2,
+    "unit": "units",
+    "reorderPoint": 1,
+    "lastRestocked": "2023-08-15"
+  },
+  {
+    "Id": 5,
+    "name": "Soybean Seed - Liberty Link",
+    "category": "seeds",
+    "quantity": 18,
+    "unit": "bags",
+    "reorderPoint": 20,
+    "lastRestocked": "2024-04-01"
+  },
+  {
+    "Id": 6,
+    "name": "Phosphorus Fertilizer",
+    "category": "fertilizers",
+    "quantity": 8,
+    "unit": "tons",
+    "reorderPoint": 15,
+    "lastRestocked": "2024-03-28"
+  },
+  {
+    "Id": 7,
+    "name": "Diesel Fuel",
+    "category": "fuel",
+    "quantity": 2500,
+    "unit": "gallons",
+    "reorderPoint": 500,
+    "lastRestocked": "2024-07-01"
+  },
+  {
+    "Id": 8,
+    "name": "Irrigation Pipes",
+    "category": "equipment",
+    "quantity": 150,
+    "unit": "meters",
+    "reorderPoint": 30,
+    "lastRestocked": "2024-02-20"
+  },
+  {
+    "Id": 9,
+    "name": "Insecticide - Bt Corn",
+    "category": "chemicals",
+    "quantity": 0,
+    "unit": "bottles",
+    "reorderPoint": 10,
+    "lastRestocked": "2024-01-15"
+  },
+  {
+    "Id": 10,
+    "name": "Wheat Seed - Winter Variety",
+    "category": "seeds",
+    "quantity": 85,
+    "unit": "bags",
+    "reorderPoint": 25,
+    "lastRestocked": "2024-06-30"
+  }
+]

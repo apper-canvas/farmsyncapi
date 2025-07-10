@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "name": "North Field Alpha",
+    "acres": 45.2,
+    "cropType": "Corn",
+    "plantingDate": "2024-04-15",
+    "expectedHarvest": "2024-09-30",
+    "status": "growing",
+    "notes": "Healthy growth, monitor for pests in July"
+  },
+  {
+    "Id": 2,
+    "name": "South Valley Beta", 
+    "acres": 32.8,
+    "cropType": "Soybeans",
+    "plantingDate": "2024-05-01",
+    "expectedHarvest": "2024-10-15",
+    "status": "planted",
+    "notes": "Recently planted, check germination in 2 weeks"
+  },
+  {
+    "Id": 3,
+    "name": "East Ridge Gamma",
+    "acres": 28.5,
+    "cropType": "Wheat",
+    "plantingDate": "2024-03-20",
+    "expectedHarvest": "2024-08-10",
+    "status": "ready",
+    "notes": "Ready for harvest, schedule equipment"
+  },
+  {
+    "Id": 4,
+    "name": "West Meadow Delta",
+    "acres": 38.7,
+    "cropType": "Cotton",
+    "plantingDate": "2024-04-28",
+    "expectedHarvest": "2024-11-05",
+    "status": "growing",
+    "notes": "Good moisture levels, apply fertilizer next week"
+  },
+  {
+    "Id": 5,
+    "name": "Central Plains Echo",
+    "acres": 52.1,
+    "cropType": "Rice",
+    "plantingDate": "2024-04-10",
+    "expectedHarvest": "2024-09-15",
+    "status": "growing",
+    "notes": "Water levels optimal, monitor for disease"
+  },
+  {
+    "Id": 6,
+    "name": "Lower Valley Foxtrot",
+    "acres": 25.3,
+    "cropType": "Barley",
+    "plantingDate": "2024-03-15",
+    "expectedHarvest": "2024-07-20",
+    "status": "harvested",
+    "notes": "Harvest completed, yield was 85 bushels/acre"
+  }
+]

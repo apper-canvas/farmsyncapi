@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "title": "Apply fertilizer to North Field",
+    "fieldId": "1",
+    "priority": "high",
+    "dueDate": "2024-07-15",
+    "assignedTo": "John Smith",
+    "status": "pending",
+    "description": "Apply nitrogen fertilizer to corn crop for optimal growth"
+  },
+  {
+    "Id": 2,
+    "title": "Irrigation system maintenance",
+    "fieldId": "2",
+    "priority": "medium",
+    "dueDate": "2024-07-18",
+    "assignedTo": "Mike Johnson",
+    "status": "in-progress",
+    "description": "Check and repair irrigation lines in South Valley"
+  },
+  {
+    "Id": 3,
+    "title": "Harvest wheat crop",
+    "fieldId": "3",
+    "priority": "high",
+    "dueDate": "2024-07-12",
+    "assignedTo": "Sarah Davis",
+    "status": "pending",
+    "description": "Begin wheat harvest in East Ridge field"
+  },
+  {
+    "Id": 4,
+    "title": "Pest inspection",
+    "fieldId": "4",
+    "priority": "medium",
+    "dueDate": "2024-07-20",
+    "assignedTo": "Tom Wilson",
+    "status": "pending",
+    "description": "Weekly pest inspection for cotton crop"
+  },
+  {
+    "Id": 5,
+    "title": "Soil testing",
+    "fieldId": "5",
+    "priority": "low",
+    "dueDate": "2024-07-25",
+    "assignedTo": "Lisa Brown",
+    "status": "pending",
+    "description": "Collect soil samples for nutrient analysis"
+  },
+  {
+    "Id": 6,
+    "title": "Equipment calibration",
+    "fieldId": "",
+    "priority": "medium",
+    "dueDate": "2024-07-14",
+    "assignedTo": "David Garcia",
+    "status": "completed",
+    "description": "Calibrate planting equipment for next season"
+  },
+  {
+    "Id": 7,
+    "title": "Weed control treatment",
+    "fieldId": "1",
+    "priority": "high",
+    "dueDate": "2024-07-16",
+    "assignedTo": "John Smith",
+    "status": "pending",
+    "description": "Apply herbicide for weed control in corn field"
+  },
+  {
+    "Id": 8,
+    "title": "Water level monitoring",
+    "fieldId": "5",
+    "priority": "medium",
+    "dueDate": "2024-07-13",
+    "assignedTo": "Mike Johnson",
+    "status": "completed",
+    "description": "Monitor and adjust water levels in rice field"
+  }
+]
