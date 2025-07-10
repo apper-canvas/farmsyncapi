@@ -8,7 +8,7 @@ import Tasks from "@/components/pages/Tasks";
 import Inventory from "@/components/pages/Inventory";
 import MarketPrices from "@/components/pages/MarketPrices";
 import Weather from "@/components/pages/Weather";
-
+import IrrigationCalendar from "@/components/pages/IrrigationCalendar";
 function App() {
   return (
     <Router>
@@ -22,6 +22,7 @@ function App() {
             <Route path="/inventory" element={<Inventory />} />
             <Route path="/market-prices" element={<MarketPrices />} />
             <Route path="/weather" element={<Weather />} />
+            <Route path="/irrigation" element={<IrrigationCalendar />} />
           </Routes>
         </main>
         <ToastContainer

@@ -119,7 +119,7 @@ const Dashboard = () => {
         <div className="lg:col-span-2">
           <div className="bg-gradient-to-br from-surface to-white rounded-xl p-6 shadow-md">
             <h3 className="text-lg font-semibold text-gray-800 mb-4">Quick Actions</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <Button variant="outline" className="h-20 flex-col">
                 <ApperIcon name="Map" size={24} className="mb-2 text-primary" />
                 <span className="text-sm">Add Field</span>
@@ -133,8 +133,8 @@ const Dashboard = () => {
                 <span className="text-sm">Add Inventory</span>
               </Button>
               <Button variant="outline" className="h-20 flex-col">
-                <ApperIcon name="TrendingUp" size={24} className="mb-2 text-primary" />
-                <span className="text-sm">View Reports</span>
+                <ApperIcon name="Calendar" size={24} className="mb-2 text-primary" />
+                <span className="text-sm">Irrigation</span>
               </Button>
             </div>
           </div>

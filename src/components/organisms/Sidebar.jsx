@@ -12,7 +12,8 @@ const navigation = [
     { name: "Tasks", href: "/tasks", icon: "CheckSquare" },
     { name: "Inventory", href: "/inventory", icon: "Package" },
     { name: "Market Prices", href: "/market-prices", icon: "TrendingUp" },
-    { name: "Weather", href: "/weather", icon: "Cloud" }
+    { name: "Weather", href: "/weather", icon: "Cloud" },
+    { name: "Irrigation Calendar", href: "/irrigation", icon: "Calendar" }
   ];
 
   const NavItem = ({ item, mobile = false }) => (
