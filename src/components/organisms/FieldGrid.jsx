@@ -100,10 +100,18 @@ const FieldGrid = ({ limit }) => {
             </div>
           )}
 
-          <div className="flex space-x-2">
+<div className="flex space-x-2">
             <Button variant="outline" size="sm" className="flex-1">
               <ApperIcon name="Eye" size={16} className="mr-1" />
               View
+            </Button>
+            <Button 
+              variant="ghost" 
+              size="sm"
+              onClick={() => window.location.href = `/pest-reports?fieldId=${field.Id}`}
+            >
+              <ApperIcon name="Bug" size={16} className="mr-1" />
+              Report Issue
             </Button>
             <Button variant="ghost" size="sm">
               <ApperIcon name="Edit" size={16} />

@@ -1,0 +1,77 @@
+[
+  {
+    "Id": 1,
+    "fieldId": 1,
+    "issueType": "pest",
+    "pestName": "Aphids",
+    "severity": "medium",
+    "location": "North section",
+    "description": "Small green insects found on corn leaves, causing yellowing and curling of leaves. Population seems to be increasing.",
+    "images": [
+      "https://images.unsplash.com/photo-1582045401474-266981ee579e?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1574263867128-b9c6b1c9a5a2?w=400&h=300&fit=crop"
+    ],
+    "dateReported": "2024-01-15",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "fieldId": 2,
+    "issueType": "disease",
+    "pestName": "Leaf Blight",
+    "severity": "high",
+    "location": "Southwest corner",
+    "description": "Brown spots with yellow halos appearing on tomato leaves. Spreading rapidly in humid conditions.",
+    "images": [
+      "https://images.unsplash.com/photo-1605515298946-d062c2c65e84?w=400&h=300&fit=crop"
+    ],
+    "dateReported": "2024-01-12",
+    "createdAt": "2024-01-12T14:20:00Z",
+    "updatedAt": "2024-01-12T14:20:00Z"
+  },
+  {
+    "Id": 3,
+    "fieldId": 3,
+    "issueType": "pest",
+    "pestName": "Cutworms",
+    "severity": "low",
+    "location": "Center rows",
+    "description": "Found evidence of cutworm activity near base of young pepper plants. Some stem damage observed.",
+    "images": [],
+    "dateReported": "2024-01-10",
+    "createdAt": "2024-01-10T09:15:00Z",
+    "updatedAt": "2024-01-10T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "fieldId": 1,
+    "issueType": "disease",
+    "pestName": "Powdery Mildew",
+    "severity": "medium",
+    "location": "East side",
+    "description": "White powdery substance on corn leaves, particularly in areas with poor air circulation.",
+    "images": [
+      "https://images.unsplash.com/photo-1583912267550-3be56d8b5292?w=400&h=300&fit=crop"
+    ],
+    "dateReported": "2024-01-08",
+    "createdAt": "2024-01-08T16:45:00Z",
+    "updatedAt": "2024-01-08T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "fieldId": 4,
+    "issueType": "pest",
+    "pestName": "Spider Mites",
+    "severity": "critical",
+    "location": "Entire field",
+    "description": "Heavy infestation of spider mites on wheat. Leaves showing stippling and webbing. Immediate treatment required.",
+    "images": [
+      "https://images.unsplash.com/photo-1578910308074-c3f4f1ea0ac3?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1582045401474-266981ee579e?w=400&h=300&fit=crop"
+    ],
+    "dateReported": "2024-01-05",
+    "createdAt": "2024-01-05T11:30:00Z",
+    "updatedAt": "2024-01-05T11:30:00Z"
+  }
+]

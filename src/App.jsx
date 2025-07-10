@@ -9,6 +9,7 @@ import Inventory from "@/components/pages/Inventory";
 import MarketPrices from "@/components/pages/MarketPrices";
 import Weather from "@/components/pages/Weather";
 import IrrigationCalendar from "@/components/pages/IrrigationCalendar";
+import PestReports from "@/components/pages/PestReports";
 function App() {
   return (
     <Router>
@@ -23,6 +24,7 @@ function App() {
             <Route path="/market-prices" element={<MarketPrices />} />
             <Route path="/weather" element={<Weather />} />
             <Route path="/irrigation" element={<IrrigationCalendar />} />
+            <Route path="/pest-reports" element={<PestReports />} />
           </Routes>
         </main>
         <ToastContainer

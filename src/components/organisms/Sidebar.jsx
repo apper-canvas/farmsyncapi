@@ -13,7 +13,8 @@ const navigation = [
     { name: "Inventory", href: "/inventory", icon: "Package" },
     { name: "Market Prices", href: "/market-prices", icon: "TrendingUp" },
     { name: "Weather", href: "/weather", icon: "Cloud" },
-    { name: "Irrigation Calendar", href: "/irrigation", icon: "Calendar" }
+    { name: "Irrigation Calendar", href: "/irrigation", icon: "Calendar" },
+    { name: "Pest Reports", href: "/pest-reports", icon: "Bug" }
   ];
 
   const NavItem = ({ item, mobile = false }) => (
