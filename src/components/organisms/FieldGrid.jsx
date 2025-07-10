@@ -59,10 +59,10 @@ const FieldGrid = ({ limit }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {fields.map((field) => (
-        <Card key={field.Id} className="p-6 hover:shadow-xl">
+<Card key={field.Id} className="p-6 hover:shadow-xl">
           <div className="flex items-start justify-between mb-4">
             <div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-1">{field.name}</h3>
+              <h3 className="text-lg font-semibold text-gray-800 mb-1">{field.Name}</h3>
               <p className="text-sm text-gray-600">{field.acres} acres</p>
             </div>
             <Badge variant={getStatusVariant(field.status)}>
@@ -73,20 +73,20 @@ const FieldGrid = ({ limit }) => {
           <div className="space-y-3 mb-4">
             <div className="flex items-center text-sm text-gray-600">
               <ApperIcon name="Seedling" size={16} className="mr-2 text-secondary" />
-              <span className="font-medium">{field.cropType}</span>
+              <span className="font-medium">{field.crop_type}</span>
             </div>
             
-            <div className="flex items-center text-sm text-gray-600">
+<div className="flex items-center text-sm text-gray-600">
               <ApperIcon name="Calendar" size={16} className="mr-2 text-info" />
-              <span>Planted {formatDistanceToNow(new Date(field.plantingDate))} ago</span>
+              <span>Planted {formatDistanceToNow(new Date(field.planting_date))} ago</span>
             </div>
 
             {field.status !== "harvested" && (
               <div className="flex items-center text-sm text-gray-600">
                 <ApperIcon name="Clock" size={16} className="mr-2 text-accent" />
-                <span>
-                  {getDaysToHarvest(field.expectedHarvest) > 0 
-                    ? `${getDaysToHarvest(field.expectedHarvest)} days to harvest`
+<span>
+                  {getDaysToHarvest(field.expected_harvest) > 0 
+                    ? `${getDaysToHarvest(field.expected_harvest)} days to harvest`
                     : "Ready for harvest"
                   }
                 </span>

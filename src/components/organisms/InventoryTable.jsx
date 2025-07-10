@@ -39,9 +39,9 @@ const InventoryTable = () => {
   useEffect(() => {
     let filtered = inventory;
 
-    if (searchTerm) {
+if (searchTerm) {
       filtered = filtered.filter(item =>
-        item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        item.Name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         item.category.toLowerCase().includes(searchTerm.toLowerCase())
       );
     }
@@ -52,8 +52,7 @@ const InventoryTable = () => {
 
     setFilteredInventory(filtered);
   }, [inventory, searchTerm, selectedCategory]);
-
-  const getStockStatus = (quantity, reorderPoint) => {
+const getStockStatus = (quantity, reorderPoint) => {
     if (quantity === 0) return { variant: "error", text: "Out of Stock" };
     if (quantity <= reorderPoint) return { variant: "warning", text: "Low Stock" };
     return { variant: "success", text: "In Stock" };
@@ -112,12 +111,12 @@ const InventoryTable = () => {
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
-              {filteredInventory.map((item) => {
-                const stockStatus = getStockStatus(item.quantity, item.reorderPoint);
+{filteredInventory.map((item) => {
+                const stockStatus = getStockStatus(item.quantity, item.reorder_point);
                 return (
-                  <tr key={item.Id} className="hover:bg-gray-50">
+<tr key={item.Id} className="hover:bg-gray-50">
                     <td className="py-4 px-4">
-                      <div className="font-medium text-gray-800">{item.name}</div>
+                      <div className="font-medium text-gray-800">{item.Name}</div>
                     </td>
                     <td className="py-4 px-4">
                       <span className="text-gray-600 capitalize">{item.category}</span>
@@ -132,7 +131,7 @@ const InventoryTable = () => {
                     </td>
                     <td className="py-4 px-4">
                       <span className="text-gray-600">
-                        {format(new Date(item.lastRestocked), "MMM d, yyyy")}
+                        {format(new Date(item.last_restocked), "MMM d, yyyy")}
                       </span>
                     </td>
                     <td className="py-4 px-4">

@@ -1,8 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { NavLink } from "react-router-dom";
 import ApperIcon from "@/components/ApperIcon";
 import { cn } from "@/utils/cn";
+import { AuthContext } from "../../App";
 
+const LogoutButton = () => {
+  const { logout } = useContext(AuthContext);
+  
+  return (
+    <button
+      onClick={logout}
+      className="flex items-center w-full px-4 py-3 text-base font-medium rounded-lg transition-all duration-200 text-gray-700 hover:bg-error/10 hover:text-error"
+    >
+      <ApperIcon name="LogOut" size={20} className="mr-3" />
+      Logout
+    </button>
+  );
+};
 const Sidebar = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
@@ -92,12 +106,17 @@ const navigation = [
               <h1 className="text-xl font-bold text-primary">FarmSync</h1>
               <p className="text-sm text-gray-600">Agricultural Management</p>
             </div>
-          </div>
+</div>
           <nav className="space-y-2">
             {navigation.map((item) => (
               <NavItem key={item.name} item={item} />
             ))}
           </nav>
+          
+          {/* Logout Button */}
+          <div className="mt-8 pt-4 border-t border-gray-200">
+            <LogoutButton />
+          </div>
         </div>
       </div>
     </>

@@ -68,7 +68,7 @@ const WeatherForecast = () => {
                 size={64} 
                 className="text-blue-600 mb-2" 
               />
-              <p className={`text-4xl font-bold ${getTemperatureColor(currentWeather.temperature)}`}>
+<p className={`text-4xl font-bold ${getTemperatureColor(currentWeather.temperature)}`}>
                 {currentWeather.temperature}°F
               </p>
             </div>
@@ -83,7 +83,7 @@ const WeatherForecast = () => {
             <div className="text-center p-4 bg-white bg-opacity-50 rounded-lg">
               <ApperIcon name="Wind" size={24} className="text-blue-600 mx-auto mb-2" />
               <p className="text-sm text-gray-600">Wind Speed</p>
-              <p className="text-xl font-semibold text-gray-800">{currentWeather.windSpeed} mph</p>
+              <p className="text-xl font-semibold text-gray-800">{currentWeather.wind_speed} mph</p>
             </div>
             <div className="text-center p-4 bg-white bg-opacity-50 rounded-lg">
               <ApperIcon name="CloudRain" size={24} className="text-blue-600 mx-auto mb-2" />

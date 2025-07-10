@@ -18,8 +18,8 @@ const TasksList = ({ limit }) => {
     try {
       setLoading(true);
       setError("");
-      const data = await tasksService.getAll();
-      const sortedTasks = data.sort((a, b) => new Date(a.dueDate) - new Date(b.dueDate));
+const data = await tasksService.getAll();
+      const sortedTasks = data.sort((a, b) => new Date(a.due_date) - new Date(b.due_date));
       setTasks(limit ? sortedTasks.slice(0, limit) : sortedTasks);
     } catch (err) {
       setError("Failed to load tasks");
@@ -83,7 +83,7 @@ const TasksList = ({ limit }) => {
       </div>
       <div className="divide-y divide-gray-200">
         {tasks.map((task) => (
-          <div key={task.Id} className="p-4 hover:bg-gray-50 transition-colors duration-200">
+<div key={task.Id} className="p-4 hover:bg-gray-50 transition-colors duration-200">
             <div className="flex items-center justify-between">
               <div className="flex-1">
                 <div className="flex items-center space-x-3 mb-2">
@@ -98,17 +98,17 @@ const TasksList = ({ limit }) => {
                 
                 <div className="flex items-center space-x-4 text-sm text-gray-600 mb-2">
                   <div className="flex items-center">
-                    <ApperIcon name="Calendar" size={14} className={`mr-1 ${getDueDateColor(task.dueDate)}`} />
-                    <span className={getDueDateColor(task.dueDate)}>{getDueDateText(task.dueDate)}</span>
+                    <ApperIcon name="Calendar" size={14} className={`mr-1 ${getDueDateColor(task.due_date)}`} />
+                    <span className={getDueDateColor(task.due_date)}>{getDueDateText(task.due_date)}</span>
                   </div>
                   <div className="flex items-center">
                     <ApperIcon name="User" size={14} className="mr-1" />
-                    <span>{task.assignedTo}</span>
+                    <span>{task.assigned_to}</span>
                   </div>
-                  {task.fieldId && (
+{task.field_id && (
                     <div className="flex items-center">
                       <ApperIcon name="Map" size={14} className="mr-1" />
-                      <span>Field {task.fieldId}</span>
+                      <span>Field {task.field_id}</span>
                     </div>
                   )}
                 </div>
