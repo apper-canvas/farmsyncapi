@@ -6,11 +6,12 @@ import { cn } from "@/utils/cn";
 const Sidebar = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
-  const navigation = [
+const navigation = [
     { name: "Dashboard", href: "/", icon: "BarChart3" },
     { name: "Fields", href: "/fields", icon: "Map" },
     { name: "Tasks", href: "/tasks", icon: "CheckSquare" },
     { name: "Inventory", href: "/inventory", icon: "Package" },
+    { name: "Market Prices", href: "/market-prices", icon: "TrendingUp" },
     { name: "Weather", href: "/weather", icon: "Cloud" }
   ];
 

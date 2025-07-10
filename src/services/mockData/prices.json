@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1,
+    "cropType": "Corn",
+    "currentPrice": 6.45,
+    "unit": "bushel",
+    "priceHistory": [
+      {"date": "2024-01-15", "openPrice": 6.20, "highPrice": 6.35, "lowPrice": 6.15, "closePrice": 6.32, "volume": 1250, "change": 0.12, "changePercent": 1.93},
+      {"date": "2024-01-16", "openPrice": 6.32, "highPrice": 6.40, "lowPrice": 6.25, "closePrice": 6.38, "volume": 1180, "change": 0.06, "changePercent": 0.95},
+      {"date": "2024-01-17", "openPrice": 6.38, "highPrice": 6.45, "lowPrice": 6.30, "closePrice": 6.42, "volume": 1320, "change": 0.04, "changePercent": 0.63},
+      {"date": "2024-01-18", "openPrice": 6.42, "highPrice": 6.50, "lowPrice": 6.35, "closePrice": 6.47, "volume": 1400, "change": 0.05, "changePercent": 0.78},
+      {"date": "2024-01-19", "openPrice": 6.47, "highPrice": 6.55, "lowPrice": 6.40, "closePrice": 6.52, "volume": 1350, "change": 0.05, "changePercent": 0.77},
+      {"date": "2024-01-22", "openPrice": 6.52, "highPrice": 6.60, "lowPrice": 6.45, "closePrice": 6.58, "volume": 1480, "change": 0.06, "changePercent": 0.92},
+      {"date": "2024-01-23", "openPrice": 6.58, "highPrice": 6.65, "lowPrice": 6.50, "closePrice": 6.62, "volume": 1520, "change": 0.04, "changePercent": 0.61},
+      {"date": "2024-01-24", "openPrice": 6.62, "highPrice": 6.70, "lowPrice": 6.55, "closePrice": 6.68, "volume": 1600, "change": 0.06, "changePercent": 0.91},
+      {"date": "2024-01-25", "openPrice": 6.68, "highPrice": 6.75, "lowPrice": 6.60, "closePrice": 6.72, "volume": 1580, "change": 0.04, "changePercent": 0.60},
+      {"date": "2024-01-26", "openPrice": 6.72, "highPrice": 6.80, "lowPrice": 6.65, "closePrice": 6.75, "volume": 1620, "change": 0.03, "changePercent": 0.45}
+    ]
+  },
+  {
+    "Id": 2,
+    "cropType": "Soybeans",
+    "currentPrice": 13.85,
+    "unit": "bushel",
+    "priceHistory": [
+      {"date": "2024-01-15", "openPrice": 13.20, "highPrice": 13.40, "lowPrice": 13.15, "closePrice": 13.35, "volume": 980, "change": 0.15, "changePercent": 1.14},
+      {"date": "2024-01-16", "openPrice": 13.35, "highPrice": 13.50, "lowPrice": 13.25, "closePrice": 13.42, "volume": 920, "change": 0.07, "changePercent": 0.52},
+      {"date": "2024-01-17", "openPrice": 13.42, "highPrice": 13.55, "lowPrice": 13.35, "closePrice": 13.48, "volume": 1050, "change": 0.06, "changePercent": 0.45},
+      {"date": "2024-01-18", "openPrice": 13.48, "highPrice": 13.60, "lowPrice": 13.40, "closePrice": 13.55, "volume": 1120, "change": 0.07, "changePercent": 0.52},
+      {"date": "2024-01-19", "openPrice": 13.55, "highPrice": 13.70, "lowPrice": 13.45, "closePrice": 13.62, "volume": 1080, "change": 0.07, "changePercent": 0.52},
+      {"date": "2024-01-22", "openPrice": 13.62, "highPrice": 13.75, "lowPrice": 13.55, "closePrice": 13.68, "volume": 1200, "change": 0.06, "changePercent": 0.44},
+      {"date": "2024-01-23", "openPrice": 13.68, "highPrice": 13.80, "lowPrice": 13.60, "closePrice": 13.74, "volume": 1240, "change": 0.06, "changePercent": 0.44},
+      {"date": "2024-01-24", "openPrice": 13.74, "highPrice": 13.85, "lowPrice": 13.65, "closePrice": 13.79, "volume": 1300, "change": 0.05, "changePercent": 0.36},
+      {"date": "2024-01-25", "openPrice": 13.79, "highPrice": 13.90, "lowPrice": 13.70, "closePrice": 13.82, "volume": 1280, "change": 0.03, "changePercent": 0.22},
+      {"date": "2024-01-26", "openPrice": 13.82, "highPrice": 13.95, "lowPrice": 13.75, "closePrice": 13.85, "volume": 1320, "change": 0.03, "changePercent": 0.22}
+    ]
+  },
+  {
+    "Id": 3,
+    "cropType": "Wheat",
+    "currentPrice": 7.25,
+    "unit": "bushel",
+    "priceHistory": [
+      {"date": "2024-01-15", "openPrice": 6.90, "highPrice": 7.05, "lowPrice": 6.85, "closePrice": 7.00, "volume": 850, "change": 0.10, "changePercent": 1.45},
+      {"date": "2024-01-16", "openPrice": 7.00, "highPrice": 7.10, "lowPrice": 6.95, "closePrice": 7.05, "volume": 800, "change": 0.05, "changePercent": 0.71},
+      {"date": "2024-01-17", "openPrice": 7.05, "highPrice": 7.15, "lowPrice": 6.98, "closePrice": 7.08, "volume": 880, "change": 0.03, "changePercent": 0.43},
+      {"date": "2024-01-18", "openPrice": 7.08, "highPrice": 7.20, "lowPrice": 7.00, "closePrice": 7.12, "volume": 920, "change": 0.04, "changePercent": 0.56},
+      {"date": "2024-01-19", "openPrice": 7.12, "highPrice": 7.25, "lowPrice": 7.05, "closePrice": 7.18, "volume": 900, "change": 0.06, "changePercent": 0.84},
+      {"date": "2024-01-22", "openPrice": 7.18, "highPrice": 7.30, "lowPrice": 7.10, "closePrice": 7.22, "volume": 980, "change": 0.04, "changePercent": 0.56},
+      {"date": "2024-01-23", "openPrice": 7.22, "highPrice": 7.32, "lowPrice": 7.15, "closePrice": 7.28, "volume": 1020, "change": 0.06, "changePercent": 0.83},
+      {"date": "2024-01-24", "openPrice": 7.28, "highPrice": 7.38, "lowPrice": 7.20, "closePrice": 7.32, "volume": 1100, "change": 0.04, "changePercent": 0.55},
+      {"date": "2024-01-25", "openPrice": 7.32, "highPrice": 7.40, "lowPrice": 7.25, "closePrice": 7.35, "volume": 1080, "change": 0.03, "changePercent": 0.41},
+      {"date": "2024-01-26", "openPrice": 7.35, "highPrice": 7.42, "lowPrice": 7.28, "closePrice": 7.38, "volume": 1120, "change": 0.03, "changePercent": 0.41}
+    ]
+  },
+  {
+    "Id": 4,
+    "cropType": "Cotton",
+    "currentPrice": 0.72,
+    "unit": "pound",
+    "priceHistory": [
+      {"date": "2024-01-15", "openPrice": 0.68, "highPrice": 0.70, "lowPrice": 0.67, "closePrice": 0.69, "volume": 2400, "change": 0.01, "changePercent": 1.47},
+      {"date": "2024-01-16", "openPrice": 0.69, "highPrice": 0.71, "lowPrice": 0.68, "closePrice": 0.70, "volume": 2350, "change": 0.01, "changePercent": 1.45},
+      {"date": "2024-01-17", "openPrice": 0.70, "highPrice": 0.72, "lowPrice": 0.69, "closePrice": 0.71, "volume": 2480, "change": 0.01, "changePercent": 1.43},
+      {"date": "2024-01-18", "openPrice": 0.71, "highPrice": 0.73, "lowPrice": 0.70, "closePrice": 0.72, "volume": 2520, "change": 0.01, "changePercent": 1.41},
+      {"date": "2024-01-19", "openPrice": 0.72, "highPrice": 0.74, "lowPrice": 0.71, "closePrice": 0.73, "volume": 2500, "change": 0.01, "changePercent": 1.39},
+      {"date": "2024-01-22", "openPrice": 0.73, "highPrice": 0.75, "lowPrice": 0.72, "closePrice": 0.74, "volume": 2600, "change": 0.01, "changePercent": 1.37},
+      {"date": "2024-01-23", "openPrice": 0.74, "highPrice": 0.76, "lowPrice": 0.73, "closePrice": 0.75, "volume": 2640, "change": 0.01, "changePercent": 1.35},
+      {"date": "2024-01-24", "openPrice": 0.75, "highPrice": 0.77, "lowPrice": 0.74, "closePrice": 0.76, "volume": 2700, "change": 0.01, "changePercent": 1.33},
+      {"date": "2024-01-25", "openPrice": 0.76, "highPrice": 0.78, "lowPrice": 0.75, "closePrice": 0.77, "volume": 2680, "change": 0.01, "changePercent": 1.32},
+      {"date": "2024-01-26", "openPrice": 0.77, "highPrice": 0.79, "lowPrice": 0.76, "closePrice": 0.78, "volume": 2720, "change": 0.01, "changePercent": 1.30}
+    ]
+  },
+  {
+    "Id": 5,
+    "cropType": "Rice",
+    "currentPrice": 15.40,
+    "unit": "hundredweight",
+    "priceHistory": [
+      {"date": "2024-01-15", "openPrice": 14.80, "highPrice": 15.00, "lowPrice": 14.75, "closePrice": 14.95, "volume": 650, "change": 0.15, "changePercent": 1.01},
+      {"date": "2024-01-16", "openPrice": 14.95, "highPrice": 15.10, "lowPrice": 14.85, "closePrice": 15.02, "volume": 620, "change": 0.07, "changePercent": 0.47},
+      {"date": "2024-01-17", "openPrice": 15.02, "highPrice": 15.15, "lowPrice": 14.95, "closePrice": 15.08, "volume": 680, "change": 0.06, "changePercent": 0.40},
+      {"date": "2024-01-18", "openPrice": 15.08, "highPrice": 15.20, "lowPrice": 15.00, "closePrice": 15.15, "volume": 720, "change": 0.07, "changePercent": 0.46},
+      {"date": "2024-01-19", "openPrice": 15.15, "highPrice": 15.30, "lowPrice": 15.05, "closePrice": 15.22, "volume": 700, "change": 0.07, "changePercent": 0.46},
+      {"date": "2024-01-22", "openPrice": 15.22, "highPrice": 15.35, "lowPrice": 15.15, "closePrice": 15.28, "volume": 780, "change": 0.06, "changePercent": 0.39},
+      {"date": "2024-01-23", "openPrice": 15.28, "highPrice": 15.40, "lowPrice": 15.20, "closePrice": 15.34, "volume": 800, "change": 0.06, "changePercent": 0.39},
+      {"date": "2024-01-24", "openPrice": 15.34, "highPrice": 15.45, "lowPrice": 15.25, "closePrice": 15.39, "volume": 850, "change": 0.05, "changePercent": 0.33},
+      {"date": "2024-01-25", "openPrice": 15.39, "highPrice": 15.50, "lowPrice": 15.30, "closePrice": 15.42, "volume": 830, "change": 0.03, "changePercent": 0.19},
+      {"date": "2024-01-26", "openPrice": 15.42, "highPrice": 15.52, "lowPrice": 15.35, "closePrice": 15.45, "volume": 860, "change": 0.03, "changePercent": 0.19}
+    ]
+  },
+  {
+    "Id": 6,
+    "cropType": "Barley",
+    "currentPrice": 5.95,
+    "unit": "bushel",
+    "priceHistory": [
+      {"date": "2024-01-15", "openPrice": 5.60, "highPrice": 5.75, "lowPrice": 5.55, "closePrice": 5.70, "volume": 450, "change": 0.10, "changePercent": 1.79},
+      {"date": "2024-01-16", "openPrice": 5.70, "highPrice": 5.80, "lowPrice": 5.65, "closePrice": 5.75, "volume": 420, "change": 0.05, "changePercent": 0.88},
+      {"date": "2024-01-17", "openPrice": 5.75, "highPrice": 5.85, "lowPrice": 5.68, "closePrice": 5.78, "volume": 480, "change": 0.03, "changePercent": 0.52},
+      {"date": "2024-01-18", "openPrice": 5.78, "highPrice": 5.88, "lowPrice": 5.70, "closePrice": 5.82, "volume": 520, "change": 0.04, "changePercent": 0.69},
+      {"date": "2024-01-19", "openPrice": 5.82, "highPrice": 5.92, "lowPrice": 5.75, "closePrice": 5.88, "volume": 500, "change": 0.06, "changePercent": 1.03},
+      {"date": "2024-01-22", "openPrice": 5.88, "highPrice": 5.98, "lowPrice": 5.80, "closePrice": 5.92, "volume": 580, "change": 0.04, "changePercent": 0.68},
+      {"date": "2024-01-23", "openPrice": 5.92, "highPrice": 6.02, "lowPrice": 5.85, "closePrice": 5.98, "volume": 600, "change": 0.06, "changePercent": 1.01},
+      {"date": "2024-01-24", "openPrice": 5.98, "highPrice": 6.08, "lowPrice": 5.90, "closePrice": 6.02, "volume": 650, "change": 0.04, "changePercent": 0.67},
+      {"date": "2024-01-25", "openPrice": 6.02, "highPrice": 6.10, "lowPrice": 5.95, "closePrice": 6.05, "volume": 630, "change": 0.03, "changePercent": 0.50},
+      {"date": "2024-01-26", "openPrice": 6.05, "highPrice": 6.12, "lowPrice": 5.98, "closePrice": 6.08, "volume": 660, "change": 0.03, "changePercent": 0.50}
+    ]
+  }
+]
