@@ -69,9 +69,8 @@ const Fields = () => {
       toast.error("Failed to add field. Please try again.");
       console.error("Error adding field:", error);
     } finally {
-      setLoading(false);
+setLoading(false);
     }
-}
   };
   
   return (
