@@ -177,8 +177,13 @@ const IrrigationCalendar = () => {
           <p className="text-gray-600">
             Schedule and manage irrigation based on weather forecasts and soil conditions
             {!selectedDate && (
-              <span className="block text-sm text-primary font-medium mt-1">
-                → Select a date on the calendar to schedule irrigation
+              <span className="block text-sm text-primary font-semibold mt-2 animate-pulse">
+                👆 Click any date on the calendar to schedule irrigation
+              </span>
+            )}
+            {selectedDate && (
+              <span className="block text-sm text-success font-semibold mt-2">
+                ✅ {format(selectedDate, 'EEEE, MMMM d')} selected - ready to schedule!
               </span>
             )}
           </p>
@@ -193,16 +198,16 @@ const IrrigationCalendar = () => {
             onClick={handleScheduleIrrigation} 
             disabled={!selectedDate}
             className={cn(
-              "relative transition-all duration-200",
-              !selectedDate && "opacity-50 cursor-not-allowed",
-              selectedDate && "hover:shadow-lg hover:scale-105"
+              "relative transition-all duration-300 transform",
+              !selectedDate && "opacity-30 cursor-not-allowed grayscale",
+              selectedDate && "hover:shadow-xl hover:scale-105 animate-pulse shadow-lg ring-2 ring-primary/20"
             )}
-            title={!selectedDate ? "Select a date first" : "Schedule irrigation for selected date"}
+            title={!selectedDate ? "Please select a date on the calendar first" : `Schedule irrigation for ${selectedDate ? format(selectedDate, 'MMMM d') : ''}`}
           >
             <ApperIcon name="Plus" size={20} className="mr-2" />
             Schedule Irrigation
             {selectedDate && (
-              <span className="ml-2 text-xs bg-white/20 px-2 py-1 rounded">
+              <span className="ml-2 text-xs bg-white/30 px-2 py-1 rounded font-semibold border border-white/20">
                 {format(selectedDate, 'MMM d')}
               </span>
             )}
